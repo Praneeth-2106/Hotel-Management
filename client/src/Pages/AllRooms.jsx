@@ -5,7 +5,6 @@ import StarRating from '../Components/StarRating'
 import { assets } from '../assets/assets'
 import { useAppContext } from '../Context/AppContext'
 
-
 const CheckBox = ({label, selected=false, onChange=()=> {} })=>{
   return (
     <label className='flex gap-3 items-center cursor-pointer mt-2 text-sm'>
